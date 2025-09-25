@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logoMain from "@/assets/logo-main.png";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,9 +10,8 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-hero rounded-lg"></div>
-            <span className="font-bold text-xl text-gray-900">TechConnect</span>
+          <div className="flex items-center gap-3">
+            <img src={logoMain} alt="Elas na Tecnologia" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
