@@ -1,18 +1,20 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles, Target, Zap } from "lucide-react";
-import logoSubmarca from "@/assets/logo-submarca.png";
+import heroWomen from "@/assets/hero-women.jpg";
 
 export const TechSection = () => {
   return (
     <section className="py-20 bg-gradient-pink relative">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative flex items-center justify-center">
+          <div className="relative">
             <img
-              src={logoSubmarca}
-              alt="Elas na Tecnologia - Logo"
-              className="w-full max-w-md h-auto"
+              src={heroWomen}
+              alt="Mulheres profissionais conectadas em tecnologia"
+              className="w-full h-auto rounded-2xl shadow-soft"
             />
+            <div className="absolute -top-4 -left-4 w-20 h-20 bg-white/20 rounded-full"></div>
+            <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-white/20 rounded-full"></div>
           </div>
 
           <div className="space-y-8 text-white">

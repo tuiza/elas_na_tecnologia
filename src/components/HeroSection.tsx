@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Code, Heart } from "lucide-react";
-import heroWomen from "@/assets/hero-women.jpg";
+import logoSubmarca from "@/assets/logo-submarca.png";
 
 export const HeroSection = () => {
   return (
@@ -56,16 +56,12 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="relative z-10">
-              <img
-                src={heroWomen}
-                alt="Mulheres profissionais conectadas em tecnologia"
-                className="w-full h-auto rounded-2xl shadow-soft"
-              />
-            </div>
-            <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-green rounded-full opacity-20"></div>
-            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-pink rounded-full opacity-20"></div>
+          <div className="relative flex items-center justify-center">
+            <img
+              src={logoSubmarca}
+              alt="Elas na Tecnologia - Logo"
+              className="w-full max-w-md h-auto"
+            />
           </div>
         </div>
       </div>
