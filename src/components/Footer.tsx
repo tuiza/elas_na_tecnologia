@@ -55,54 +55,6 @@ export const Footer = () => {
               >
                 Sobre Nós
               </a>
-              <a
-                href="#"
-                className="block text-gray-400 hover:text-white transition-colors"
-              >
-                Nossa Missão
-              </a>
-              <a
-                href="#"
-                className="block text-gray-400 hover:text-white transition-colors"
-              >
-                Mentoras
-              </a>
-              <a
-                href="#"
-                className="block text-gray-400 hover:text-white transition-colors"
-              >
-                Histórias de Sucesso
-              </a>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            <h3 className="font-semibold text-lg">Recursos</h3>
-            <div className="space-y-2">
-              <a
-                href="#"
-                className="block text-gray-400 hover:text-white transition-colors"
-              >
-                Workshops
-              </a>
-              <a
-                href="#"
-                className="block text-gray-400 hover:text-white transition-colors"
-              >
-                Materiais de Estudo
-              </a>
-              <a
-                href="#"
-                className="block text-gray-400 hover:text-white transition-colors"
-              >
-                Vagas de Emprego
-              </a>
-              <a
-                href="#"
-                className="block text-gray-400 hover:text-white transition-colors"
-              >
-                Blog
-              </a>
             </div>
           </div>
 
