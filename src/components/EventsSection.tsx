@@ -6,29 +6,13 @@ import communityEvent from "@/assets/community-event.jpg";
 export const EventsSection = () => {
   const events = [
     {
-      title: "Workshop: Desenvolvimento Frontend",
-      date: "15 de Outubro",
-      time: "14:00 - 18:00",
-      location: "Manaus - AM",
-      type: "Workshop",
-      color: "pink"
-    },
-    {
-      title: "Meetup: Mulheres na IA",
-      date: "22 de Outubro", 
-      time: "19:00 - 21:00",
-      location: "Belém - PA",
+      title: "Elas Talks - 2ª Edição",
+      date: "22 de Outubro",
+      time: "18:30 - 22:00",
+      location: " Faculdade Faci Wyden Belém - PA",
       type: "Meetup",
-      color: "green"
+      color: "pink",
     },
-    {
-      title: "Hackathon: Soluções Sustentáveis",
-      date: "5-6 de Novembro",
-      time: "Todo o dia",
-      location: "Palmas - TO",
-      type: "Hackathon",
-      color: "pink"
-    }
   ];
 
   return (

@@ -36,16 +36,16 @@ export const HeroSection = () => {
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-green/10 rounded-full mb-3">
                   <Users className="w-6 h-6 text-primary-green" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">500+</div>
+                <div className="text-2xl font-bold text-gray-900">200+</div>
                 <div className="text-sm text-gray-600">Mulheres</div>
               </div>
-              <div className="text-center">
+            {/*   <div className="text-center">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-green/10 rounded-full mb-3">
                   <Code className="w-6 h-6 text-primary-green" />
                 </div>
                 <div className="text-2xl font-bold text-gray-900">50+</div>
                 <div className="text-sm text-gray-600">Eventos</div>
-              </div>
+              </div> */}
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-green/10 rounded-full mb-3">
                   <Heart className="w-6 h-6 text-primary-green" />

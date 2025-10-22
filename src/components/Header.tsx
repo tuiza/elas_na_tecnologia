@@ -31,7 +31,6 @@ export const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="outline">Entrar</Button>
             <Button variant="hero">Participar</Button>
           </div>
 
