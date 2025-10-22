@@ -31,7 +31,6 @@ export const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="outline">Entrar</Button>
             <Button variant="hero">Participar</Button>
           </div>
 
@@ -61,7 +60,6 @@ export const Header = () => {
                 Contato
               </a>
               <div className="flex flex-col gap-2 mt-4">
-                <Button variant="outline" className="w-full">Entrar</Button>
                 <Button variant="hero" className="w-full">Participar</Button>
               </div>
             </nav>

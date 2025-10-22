@@ -10,9 +10,9 @@ export const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-                Conectando
+                Empoderando
                 <span className="block bg-gradient-hero bg-clip-text text-transparent">
-                  Mulheres do Norte
+                  Mulheres da Região Norte
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">

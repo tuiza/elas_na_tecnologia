@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles, Target, Zap } from "lucide-react";
-import techIllustration from "@/assets/tech-illustration.jpg";
+import techIllustration from "@/assets/tech-north-brazil.jpg";
 
 export const TechSection = () => {
   return (
@@ -10,7 +10,7 @@ export const TechSection = () => {
           <div className="relative">
             <img
               src={techIllustration}
-              alt="Tecnologia e inovação"
+              alt="Mulheres da Região Norte em tecnologia - Floresta Amazônica e inovação digital"
               className="w-full h-auto rounded-2xl shadow-soft"
             />
             <div className="absolute -top-4 -left-4 w-20 h-20 bg-white/20 rounded-full"></div>
