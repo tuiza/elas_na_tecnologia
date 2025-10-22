@@ -113,7 +113,16 @@ export const Footer = () => {
               <p>+55 (91) 98351-1404</p>
               <p>Belém - PA</p>
             </div>
-            <Button variant="hero" className="w-full">
+            <Button
+              variant="hero"
+              className="w-full"
+              onClick={() => {
+                window.open(
+                  "https://www.instagram.com/elas.na.tecnologia/",
+                  "_blank"
+                );
+              }}
+            >
               Junte-se a Nós
             </Button>
           </div>

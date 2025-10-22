@@ -20,12 +20,13 @@ export const TechSection = () => {
           <div className="space-y-8 text-white">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-5xl font-bold leading-tight">
-                A Tecnologia é um espaço para 
+                A Tecnologia é um espaço para
                 <span className="block">todas nós</span>
               </h2>
               <p className="text-lg md:text-xl leading-relaxed opacity-90">
-                Capacitamos mulheres do Norte do Brasil para liderar na tecnologia, 
-                oferecendo suporte, conhecimento e uma rede de apoio forte.
+                Capacitamos mulheres do Norte do Brasil para liderar na
+                tecnologia, oferecendo suporte, conhecimento e uma rede de apoio
+                forte.
               </p>
             </div>
 
@@ -35,8 +36,13 @@ export const TechSection = () => {
                   <Sparkles className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Mentoria Personalizada</h3>
-                  <p className="opacity-90">Conectamos você com profissionais experientes para acelerar sua carreira.</p>
+                  <h3 className="font-semibold text-lg mb-2">
+                    Mentoria Personalizada
+                  </h3>
+                  <p className="opacity-90">
+                    Conectamos você com profissionais experientes para acelerar
+                    sua carreira.
+                  </p>
                 </div>
               </div>
 
@@ -45,8 +51,13 @@ export const TechSection = () => {
                   <Target className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Oportunidades Reais</h3>
-                  <p className="opacity-90">Parcerias com empresas oferecem vagas exclusivas para nossa comunidade.</p>
+                  <h3 className="font-semibold text-lg mb-2">
+                    Oportunidades Reais
+                  </h3>
+                  <p className="opacity-90">
+                    Parcerias com empresas oferecem vagas exclusivas para nossa
+                    comunidade.
+                  </p>
                 </div>
               </div>
 
@@ -55,13 +66,28 @@ export const TechSection = () => {
                   <Zap className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Crescimento Acelerado</h3>
-                  <p className="opacity-90">Workshops, cursos e eventos para desenvolver suas habilidades técnicas.</p>
+                  <h3 className="font-semibold text-lg mb-2">
+                    Crescimento Acelerado
+                  </h3>
+                  <p className="opacity-90">
+                    Workshops, cursos e eventos para desenvolver suas
+                    habilidades técnicas.
+                  </p>
                 </div>
               </div>
             </div>
 
-            <Button variant="outline" size="xl" className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-primary-pink">
+            <Button
+              variant="outline"
+              size="xl"
+              className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-primary-pink"
+              onClick={() => {
+                window.open(
+                  "https://www.instagram.com/elas.na.tecnologia/",
+                  "_blank"
+                );
+              }}
+            >
               Começar Agora
             </Button>
           </div>

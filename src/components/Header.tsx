@@ -11,21 +11,37 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={logoMain} alt="Elas na Tecnologia" className="h-10 w-auto" />
+            <img
+              src={logoMain}
+              alt="Elas na Tecnologia"
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#sobre" className="text-gray-600 hover:text-primary-green transition-colors">
+            <a
+              href="#sobre"
+              className="text-gray-600 hover:text-primary-green transition-colors"
+            >
               Sobre
             </a>
-            <a href="#comunidade" className="text-gray-600 hover:text-primary-green transition-colors">
+            <a
+              href="#comunidade"
+              className="text-gray-600 hover:text-primary-green transition-colors"
+            >
               Comunidade
             </a>
-            <a href="#eventos" className="text-gray-600 hover:text-primary-green transition-colors">
+            <a
+              href="#eventos"
+              className="text-gray-600 hover:text-primary-green transition-colors"
+            >
               Eventos
             </a>
-            <a href="#contato" className="text-gray-600 hover:text-primary-green transition-colors">
+            <a
+              href="#contato"
+              className="text-gray-600 hover:text-primary-green transition-colors"
+            >
               Contato
             </a>
           </nav>
@@ -47,21 +63,46 @@ export const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 py-4 border-t border-gray-100">
             <nav className="flex flex-col gap-4">
-              <a href="#sobre" className="text-gray-600 hover:text-primary-green transition-colors">
+              <a
+                href="#sobre"
+                className="text-gray-600 hover:text-primary-green transition-colors"
+              >
                 Sobre
               </a>
-              <a href="#comunidade" className="text-gray-600 hover:text-primary-green transition-colors">
+              <a
+                href="#comunidade"
+                className="text-gray-600 hover:text-primary-green transition-colors"
+              >
                 Comunidade
               </a>
-              <a href="#eventos" className="text-gray-600 hover:text-primary-green transition-colors">
+              <a
+                href="#eventos"
+                className="text-gray-600 hover:text-primary-green transition-colors"
+              >
                 Eventos
               </a>
-              <a href="#contato" className="text-gray-600 hover:text-primary-green transition-colors">
+              <a
+                href="#contato"
+                className="text-gray-600 hover:text-primary-green transition-colors"
+              >
                 Contato
               </a>
               <div className="flex flex-col gap-2 mt-4">
-                <Button variant="outline" className="w-full">Entrar</Button>
-                <Button variant="hero" className="w-full">Participar</Button>
+                <Button variant="outline" className="w-full">
+                  Entrar
+                </Button>
+                <Button
+                  variant="hero"
+                  className="w-full"
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/elas.na.tecnologia/",
+                      "_blank"
+                    );
+                  }}
+                >
+                  Participar
+                </Button>
               </div>
             </nav>
           </div>

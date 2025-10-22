@@ -87,9 +87,9 @@ export const EventsSection = () => {
               ))}
             </div>
 
-            <Button variant="green" size="xl" className="w-full md:w-auto" >
+            {/* <Button variant="green" size="xl" className="w-full md:w-auto" >
               Ver Todos os Eventos
-            </Button>
+            </Button> */}
           </div>
 
           <div className="relative">
