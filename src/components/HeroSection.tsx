@@ -22,16 +22,18 @@ export const HeroSection = () => {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button variant="hero" size="xl" className="gap-2">
+              <Button variant="hero" size="xl" className="gap-2"
+                onClick={() => {
+                  // ir pro instagram da comunidade
+                  window.open("https://www.instagram.com/elas.na.tecnologia/", "_blank");
+                 }}
+              >
                 Participar da Comunidade
                 <ArrowRight size={20} />
               </Button>
-              <Button variant="outline" size="xl">
-                Saiba Mais
-              </Button>
             </div>
 
-            <div className="grid grid-cols-3 gap-8 pt-8">
+            <div className="grid grid-cols-2 gap-8 pt-8">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-green/10 rounded-full mb-3">
                   <Users className="w-6 h-6 text-primary-green" />

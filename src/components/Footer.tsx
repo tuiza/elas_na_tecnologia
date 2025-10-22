@@ -20,6 +20,12 @@ export const Footer = () => {
                 variant="ghost"
                 size="icon"
                 className="text-gray-400 hover:text-primary-pink"
+                onClick={() => {
+                  window.open(
+                    "https://www.instagram.com/elas.na.tecnologia/",
+                    "_blank"
+                  );
+                }}
               >
                 <Instagram size={20} />
               </Button>

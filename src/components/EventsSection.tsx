@@ -7,11 +7,12 @@ export const EventsSection = () => {
   const events = [
     {
       title: "Elas Talks - 2ª Edição",
-      date: "22 de Outubro",
+      date: "22 de Outubro de 2025",
       time: "18:30 - 22:00",
       location: " Faculdade Faci Wyden Belém - PA",
-      type: "Meetup",
+      type: "Palestra Presencial",
       color: "pink",
+      link: "www.sympla.com.br/evento/elas-talks-2-edicao/3176192",
     },
   ];
 
@@ -26,23 +27,29 @@ export const EventsSection = () => {
                 <span className="block text-primary-green">Eventos</span>
               </h2>
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                Encontros regulares para aprender, conectar e crescer juntas. 
-                Eventos presenciais e online para todas as mulheres interessadas em tecnologia.
+                Encontros regulares para aprender, conectar e crescer juntas.
+                Eventos presenciais e online para todas as mulheres interessadas
+                em tecnologia.
               </p>
             </div>
 
             <div className="space-y-4">
               {events.map((event, index) => (
-                <Card key={index} className="border-0 shadow-soft hover:shadow-lg transition-all duration-300">
+                <Card
+                  key={index}
+                  className="border-0 shadow-soft hover:shadow-lg transition-all duration-300"
+                >
                   <CardContent className="p-6">
                     <div className="flex items-start justify-between gap-4">
                       <div className="space-y-2">
                         <div className="flex items-center gap-2 mb-2">
-                          <span className={`px-3 py-1 rounded-full text-xs font-medium ${
-                            event.color === 'pink' 
-                              ? 'bg-soft-pink text-primary-pink' 
-                              : 'bg-soft-green text-primary-green'
-                          }`}>
+                          <span
+                            className={`px-3 py-1 rounded-full text-xs font-medium ${
+                              event.color === "pink"
+                                ? "bg-soft-pink text-primary-pink"
+                                : "bg-soft-green text-primary-green"
+                            }`}
+                          >
                             {event.type}
                           </span>
                         </div>
@@ -64,7 +71,14 @@ export const EventsSection = () => {
                           </div>
                         </div>
                       </div>
-                      <Button variant="ghost" size="sm" className="text-primary-green hover:text-primary-green">
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        className="text-primary-green hover:text-sidebar-primary-foreground"
+                        onClick={() =>
+                          window.open(`https://${event.link}`, "_blank")
+                        }
+                      >
                         <ArrowRight size={16} />
                       </Button>
                     </div>
@@ -73,7 +87,7 @@ export const EventsSection = () => {
               ))}
             </div>
 
-            <Button variant="green" size="xl" className="w-full md:w-auto">
+            <Button variant="green" size="xl" className="w-full md:w-auto" >
               Ver Todos os Eventos
             </Button>
           </div>
