@@ -60,7 +60,7 @@ export const HeroSection = () => {
             <img
               src={logoSubmarca}
               alt="Elas na Tecnologia - Logo"
-              className="w-full max-w-md h-auto"
+              className="w-full max-w-[200px] sm:max-w-[280px] md:max-w-sm lg:max-w-md h-auto"
             />
           </div>
         </div>
