@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://tuiza.github.io/elas_na_tecnologia/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
